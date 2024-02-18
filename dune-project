@@ -19,6 +19,6 @@
  (description "[WIP] OCaml Implementation of the Network Time Protocol.")
  (depends ocaml dune)
  (tags
-  ("time" "ntp")
+  ("time" "ntp")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project

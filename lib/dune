@@ -1,2 +1,4 @@
 (library
- (name jikan))
+ (name jikan)
+ (libraries core async async_udp)
+ (preprocess (pps ppx_jane ppx_let ppx_variants_conv)))
