@@ -1,0 +1,4 @@
+(executable
+ (public_name jikan)
+ (name main)
+ (libraries jikan))
