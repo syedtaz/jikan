@@ -1,4 +1,4 @@
 (library
  (name jikan)
- (libraries core async async_udp)
+ (libraries core async async_udp angstrom)
  (preprocess (pps ppx_jane ppx_let ppx_variants_conv)))

@@ -1,3 +1,3 @@
-open Jikan.Packet
+open Cli
 
-let () = print_int (Fields.Variants_of_leap_indicator.to_rank NoWarning)
+let () = Command_unix.run ~version:"0.1" Cli.main

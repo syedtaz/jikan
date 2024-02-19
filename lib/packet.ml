@@ -25,7 +25,7 @@ module Fields = struct
     | Private
   [@@deriving variants]
 
-  type statum =
+  type stratum =
     | Unspecified
     | Reference
     | Secondary of int

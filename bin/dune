@@ -1,4 +1,4 @@
 (executable
  (public_name jikan)
  (name main)
- (libraries jikan))
+ (libraries jikan core core_unix.command_unix))
